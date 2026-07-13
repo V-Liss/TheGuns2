@@ -1,31 +1,11 @@
-The Guns 2 is a descendant of The Guns
+The Guns 2 is a descendant of The Guns. Same principles apply here, and most mechanics from The Guns were used.
 
-========================================================================
+### 🕹️ Core Features & Systems
 
-NO AI CODE GENERATION WAS USED IN THESE PROJECTS WHATSOEVER
+ * **saving:** a save.txt file. The game writes serialized data of your ammo, crafting materials, blueprints, weapons, etc. into a long series of numbers when you finish a level, and reads them when you enter the game.
 
-NO ALGORITHMS WERE COPIED OR REVERSE ENGINEERED
+* **crafting:** Enemies drop random materials in range of what and how much they can drop. In the workshop you can craft ammo, weapons, and more using blueprints.
 
-ALL DONE IN VANILLA C++ EXCEPT DISPLAYING SPRITES AND MANAGING WINDOWS. SFML WAS USED
+* **ammo:** ammo is not infinite. Can be crafted or dropped by enemies.
 
-========================================================================
-
-TO MAINTAIN ABSOLUTE TRANSPARENCY REGARDING THIS PROJECT'S AUTHENTICITY, THE SOURCE CODE REMAINS EXACTLY AS IT WAS ORIGINALLY WRITTEN:
-
-- ORGANIC STRUCTURAL GROWTH: THE ENTIRE PROJECT IS CONTAINED WITHIN A SINGLE FILE. THE FIRST HALF HANDLES COMPLEX ITEM INITIALIZATION. THE SECOND HALF CONTAINS THE CORE GAME LOGIC ALONG WITH LEGACY CODE BLOCKS INTENTIONALLY RETAINED DURING DEVELOPMENT. VARIABLE NAMING CONVENTIONS VARY, DIRECTLY REFLECTING A SELF-TAUGHT, ORGANIC, EXPERIMENTAL DEVELOPMENT PROCESS.
-
-- LOCAL VERSION CONTROL PROOF: BEFORE ADOPTING STANDARD GIT PRACTICES, MY VERSION CONTROL CONSISTED OF MANUALLY SAVING DISTINCT ITERATIONS INTO SEPARATE LOCAL FOLDERS. GITHUB ACTS STRICTLY AS THE STORAGE AND PUBLISHING DESTINATION FOR THIS COMPLETED FINAL MILESTONE.
-
-- THE VISUAL PROOF: CHECK main.cpp FOR PROOF OF THE AUTHENTICITY. THE LAYOUT, ARCHITECTURE, AND RAW STRUCTURAL EVOLUTION SERVE AS A DIRECT, UNEDITED DIGITAL FINGERPRINT PROVING AUTHENTIC, MANUAL HUMAN DEVELOPMENT.
-
-========================================================================
-
-THE GUNS 2 (in addition to THE GUNS mechanics):
-
-- SAVING: a save.txt file. The game writes serialized data of your ammo, crafting materials, blueprints, weapons, etc. into a long series of numbers when you finish a level, and reads them when you enter the game.
-
-- CRAFTING: Enemies drop random materials in range of what and how much they can drop. In the workshop you can craft ammo, weapons, and more using blueprints.
-
-- AMMO: ammo is not infinite. Can be crafted or dropped by enemies.
-
-!The Guns 2 is very beta. Do not take it as a full game.
+!!The Guns 2 is very beta. Do not take it as a full game.
